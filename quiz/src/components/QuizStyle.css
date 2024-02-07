@@ -1,0 +1,77 @@
+body{
+    background-color: #453a88;
+}
+.playArea{
+    height: 600px;
+    width: 1200px;
+    background-color: white;
+    border-left: #8785f0 5px solid;
+    position: relative;
+    left: 130px;
+}
+.head{
+    color: black;
+    position:relative;
+    top: 50px;
+    font-size: 40px;
+    left: 0;
+}
+h4{
+    color: black;
+    position: absolute;
+    left: 120px;
+    font-weight: 400;
+}
+.question{
+    color: black;
+    position: relative;
+    top: 120px;
+    font-weight: 600;
+    text-align: center;
+}
+.option{
+    background-color: #4d9feb;
+    width:490px;
+    border-radius: 20px;
+}
+.options{
+    position: relative;
+    left: 80px;
+    top: 180px;
+    display:grid;
+    grid-template-columns: repeat(2,500px);
+    gap: 20px;
+}
+.previous{
+    background-color: #4d7ca8;
+    color: black;
+    border-radius: 0px;
+    width: fit-content;
+}
+.next{
+    background-color:#367e20 ;
+    color: black;
+    border-radius: 0px;
+    width: fit-content;
+}
+.quit{
+    background-color:#ec3222 ;
+    color: black;
+    border-radius: 0px;
+    width: fit-content;
+}
+.finish{
+    background-color:#a89c9b ;
+    color: black;
+    border-radius: 0px;
+    width: fit-content;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    left: 370px;
+    top: 250px;
+    width: 400px;
+}

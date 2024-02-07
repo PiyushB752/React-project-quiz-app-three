@@ -1,0 +1,74 @@
+body{
+    background-color: #453a88;
+}
+h1{
+    color:#337e29;
+    position: relative;
+    top: -150px;
+    left: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.resultArea{
+    position: relative;
+    top: -150px;
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    border-left: #8785f0 5px solid;
+    left: 350px;
+}
+h2{
+    color: #0202f5;
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+}
+h3{
+    color: black;
+    position: relative;
+    top:20px;
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: left;
+    font-size: 15px;
+}
+.playAgain{
+    color: #7671c8;
+    background-color: white;
+    border: #7671c8 2px solid;
+    height: 30px;
+    font-size: 12px;
+}
+.homeButton{
+    color: #446f44;
+    background-color: white;
+    border: #446f44 2px solid;
+    height: 30px;
+    font-size: 12px;
+}
+.Buttons{
+    position: relative;
+    display: flex;
+    width: 350px;
+    left: 550px;
+    top: -100px;
+    justify-content: space-between;
+}
+span{
+    position: absolute;
+    color: black;
+    top: 140px;
+    left: 660px;
+}
+.span2{
+    top: 173px;
+}
+.span3{
+    top: 210px
+}
+.span4{
+    top: 250px
+}
