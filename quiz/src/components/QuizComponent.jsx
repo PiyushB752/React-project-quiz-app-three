@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import './QuizStyle.css'
 import { Link } from 'react-router-dom'
 import quizQuestion from '../resources/quizQuestion.json'
+import { Navigate } from 'react-router-dom'
+
 
 export default class QuizComponent extends Component {
   constructor(props) {
@@ -57,6 +59,7 @@ export default class QuizComponent extends Component {
     localStorage.setItem("correct",this.state.correct)
     localStorage.setItem("wrong",this.state.wrong)
     localStorage.setItem("attempted",this.state.attempt)
+    window.location.href="/result"
   }
   render() {
     const presentQuestion = this.state.ques[this.state.index - 1]
@@ -76,7 +79,7 @@ export default class QuizComponent extends Component {
                 <button className='previous' onClick={this.previousB}>Previous</button>
                 <button className='next' onClick={this.nextB}>Next</button>
                 <button className='quit' onClick={this.quitB}>Quit</button>
-                <Link to="/result"><button className='finish' onClick={this.storeVal}>Finish</button></Link>
+                <button className='finish' onClick={this.storeVal}>Finish</button>
             </div>
         </div>
       </div>
