@@ -48,7 +48,7 @@ export default class QuizComponent extends Component {
         attempt: e.attempt + 1,
       }));
     }  if (this.state.index === 15) {
-      window.location.href = "/result"
+      // window.location.href = "/result"
       localStorage.setItem("correct",this.state.correct)
       localStorage.setItem("wrong",this.state.wrong)
       localStorage.setItem("attempted",this.state.attempt)
